@@ -188,17 +188,19 @@
 #collapse-btn {
   display: flex;
   flex-direction: column;
-  width: 50px;
-  height: 30px;
-  padding: 0px;
-  margin: 15px 10px 0px 0px;
+  width: 100px;
+  height: 100px;
+  padding: 0px 20px;
+  position: relative;
+  /* background: rgb(255, 75, 75); */
+  /* border: none; */
 }
 
 #collapse-btn > span > p {
-  width: 20px;
-  height: 1px;
-  background-color: #252b42;
-  color: white;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  color: rgb(255, 0, 0);
 }
 
 @media only screen and (max-width: 1024px) {
